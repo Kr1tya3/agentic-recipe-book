@@ -33,6 +33,7 @@ Columns:
 | frozen-peas | Frozen peas | frozen | g | frozen | 1 kg bag | | months |
 | frozen-sweetcorn | Frozen sweetcorn | frozen | g | frozen | 1 kg bag | | months |
 | frozen-berries | Frozen mixed berries | frozen | g | frozen | 500 g bag | | months |
+| frozen-white-fish | Frozen skinless boneless white fish fillets (cod, haddock or pollock) | frozen | g | frozen | 500 g bag | 100-120 g per fillet | months; defrost overnight in the fridge |
 | eggs | Eggs, medium | dairy & eggs | piece | fresh | box of 12 | | 3 weeks, fridge |
 | milk | Whole milk | dairy & eggs | ml | fresh | 2 l bottle | | 1 week, fridge |
 | greek-yogurt | Plain full-fat Greek-style yogurt | dairy & eggs | g | fresh | 500 g pot | | 1 week, fridge |
@@ -50,6 +51,14 @@ Columns:
 | long-grain-rice | Long-grain or basmati rice | pantry | g | pantry | 1 kg bag | | months |
 | red-lentils | Split red lentils | pantry | g | pantry | 500 g bag | | months |
 | chopped-tomatoes | Chopped tomatoes | pantry | tin | pantry | 400 g tin | | months |
+| passata | Passata (sieved tomatoes) | pantry | g | pantry | 500 g carton | | months; 5 days opened, fridge |
+| tomato-puree | Tomato purée (double concentrate) | pantry | tbsp | staple | 200 g tube | 1 tbsp ≈ 15 g | months; 4 weeks opened, fridge |
+| chickpeas | Chickpeas in water, no added salt | pantry | tin | pantry | 400 g tin | 240 g drained | months |
+| kidney-beans | Red kidney beans in water, no added salt | pantry | tin | pantry | 400 g tin | 240 g drained | months |
+| baked-beans | Baked beans, reduced sugar and salt | pantry | tin | pantry | 415 g tin | | months |
+| tinned-sweetcorn | Sweetcorn in water, no added sugar or salt | pantry | tin | pantry | 198 g tin | 165 g drained | months |
+| tinned-tuna | Tuna chunks in spring water | pantry | tin | pantry | 145 g tin | 110 g drained | months |
+| coconut-milk | Light coconut milk | pantry | ml | pantry | 400 ml tin | | months; 2 days opened, fridge |
 | stock-cube | Low-salt vegetable stock cube | pantry | piece | staple | box of 8-10 | makes 500 ml | months |
 | soy-sauce | Reduced-salt soy sauce | pantry | tbsp | staple | 150 ml bottle | | months |
 | olive-oil | Olive oil | pantry | tbsp | staple | 500 ml bottle | | months |
@@ -59,6 +68,7 @@ Columns:
 | paprika | Sweet (not hot) paprika | spices | tsp | staple | jar | | months |
 | mild-curry-powder | Mild curry powder | spices | tsp | staple | jar | | months |
 | dried-oregano | Dried oregano | spices | tsp | staple | jar | | months |
+| garlic-granules | Garlic granules | spices | tsp | staple | jar | 0.25 tsp ≈ 1 clove | months |
 
 Not listed on purpose: tap water, salt and black pepper. Recipes never add salt to the
 children's food; adults season their own plates at the table.

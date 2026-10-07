@@ -26,6 +26,7 @@ REQUIRED = [
     "equipment", "storage", "ingredients",
 ]
 INGREDIENT_KEYS = {"item", "qty", "unit", "prep", "optional"}
+CUPBOARD_TYPES = {"pantry", "staple"}
 
 
 def load_catalog():
@@ -86,6 +87,9 @@ def check(path, catalog):
             errors.append(f"{where}: unit must be '{catalog[item]['unit']}', got '{ing.get('unit')}'")
         if not isinstance(ing.get("qty"), (int, float)) or ing["qty"] <= 0:
             errors.append(f"{where}: qty must be a positive number")
+        if ("cupboard-only" in data["tags"] and not ing.get("optional")
+                and catalog[item]["type"] not in CUPBOARD_TYPES):
+            errors.append(f"{where}: tagged cupboard-only but is '{catalog[item]['type']}' (make it optional or drop the tag)")
     return errors
 
 

@@ -8,7 +8,7 @@ The recipes are chosen to:
 - be liked by small children (mild, soft, often finger food, vegetables blended or hidden where
   that helps);
 - take little hands-on time, with ordinary kitchen equipment;
-- share a small set of about 40 ingredients, so a week of meals means a short shopping list and
+- share a small set of about 50 ingredients, so a week of meals means a short shopping list and
   little waste.
 
 ## Layout
@@ -39,6 +39,13 @@ The recipes are chosen to:
 | [Salmon Fishcakes](recipes/salmon-fishcakes.md) | dinner | oily fish | 60 min | yes |
 | [Creamy Salmon and Pea Pasta](recipes/salmon-pea-pasta.md) | dinner | oily fish | 20 min | no |
 | [Sweet Potato and Lentil Dahl](recipes/sweet-potato-lentil-dahl.md) | dinner | legume | 40 min | yes |
+| [Tuna and Sweetcorn Tomato Pasta](recipes/tuna-sweetcorn-tomato-pasta.md) ¹ | lunch, dinner | fish | 20 min | no |
+| [Mild Chickpea and Coconut Curry](recipes/chickpea-coconut-curry.md) ¹ | dinner, lunch | legume | 30 min | yes |
+| [Mild Bean and Sweetcorn Chilli](recipes/mild-bean-chilli.md) ¹ | dinner, lunch | legume | 35 min | yes |
+| [Homemade Fish Fingers with Sweet Potato Wedges](recipes/crispy-fish-fingers-wedges.md) | dinner | white fish | 50 min + defrost overnight | no |
+| [Jacket Potatoes with Cheesy Beans and Broccoli](recipes/jacket-potatoes-cheesy-beans.md) | lunch, dinner | legume, dairy | 65 min (mostly hands-off) | no |
+
+¹ `cupboard-only`: needs nothing fresh or frozen, so it can always be cooked from household stock.
 
 ## Recipe format
 
@@ -100,7 +107,10 @@ marked `batch-friendly` scale up well for freezing.
 Tags used so far: `quick` (30 min or less in total), `no-cook`, `make-ahead`, `batch-friendly`,
 `freezer-friendly`, `one-pot`, `one-pan`, `hands-off`, `finger-food`, `lunchbox`,
 `uses-leftovers`, `oily-fish`, `budget`, `no-added-sugar`, `build-your-own`, `comfort-food`,
-`family-classic`, `freezer-staples`.
+`family-classic`, `freezer-staples`, `cupboard-only`.
+
+`cupboard-only` means every non-optional ingredient has catalog type `pantry` or `staple`: no
+fresh or frozen food. The validator enforces this.
 
 ## Guidance for the planning agent
 
@@ -125,10 +135,15 @@ Tags used so far: `quick` (30 min or less in total), `no-cook`, `make-ahead`, `b
   [fried rice](recipes/chicken-fried-rice.md) the next day (within 24 hours). Double batches of
   `freezer-friendly` recipes give quick meals on busy days.
 - **Variety.** Aim for fish twice a week, one of them oily (salmon recipes are tagged
-  `oily-fish`), as NHS guidance recommends for children and adults. Vary `protein` across the
-  week and avoid repeating a recipe within 7 days.
+  `oily-fish`; tinned tuna does not count as oily), as NHS guidance recommends for children
+  and adults. Vary `protein` across the week and avoid repeating a recipe within 7 days.
+- **Keep a cupboard meal in stock.** Always keep the ingredients for at least one `cupboard-only`
+  recipe at home (for example 2 tins of tuna, a tin of sweetcorn, a carton of passata and a bag
+  of pasta), and top them up when one is cooked. It is the fallback when plans change or a
+  delivery is missed, and a good choice for the last day before the next shop, when fresh food
+  has run out.
 - **Time.** Prefer `quick` recipes on weekdays. Recipes with `wait_minutes` need to be started
-  ahead (overnight oats the evening before).
+  ahead (overnight oats the evening before, defrosting fish for the fish fingers).
 
 ### Children and safety
 
