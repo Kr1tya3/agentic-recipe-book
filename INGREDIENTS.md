@@ -55,7 +55,6 @@ Columns:
 | tomato-puree | Tomato purée (double concentrate) | pantry | tbsp | staple | 200 g tube | 1 tbsp ≈ 15 g | months; 4 weeks opened, fridge |
 | chickpeas | Chickpeas in water, no added salt | pantry | tin | pantry | 400 g tin | 240 g drained | months |
 | kidney-beans | Red kidney beans in water, no added salt | pantry | tin | pantry | 400 g tin | 240 g drained | months |
-| baked-beans | Baked beans, reduced sugar and salt | pantry | tin | pantry | 415 g tin | | months |
 | tinned-sweetcorn | Sweetcorn in water, no added sugar or salt | pantry | tin | pantry | 198 g tin | 165 g drained | months |
 | tinned-tuna | Tuna chunks in spring water | pantry | tin | pantry | 145 g tin | 110 g drained | months |
 | coconut-milk | Light coconut milk | pantry | ml | pantry | 400 ml tin | | months; 2 days opened, fridge |

@@ -43,7 +43,7 @@ The recipes are chosen to:
 | [Mild Chickpea and Coconut Curry](recipes/chickpea-coconut-curry.md) ¹ | dinner, lunch | legume | 30 min | yes |
 | [Mild Bean and Sweetcorn Chilli](recipes/mild-bean-chilli.md) ¹ | dinner, lunch | legume | 35 min | yes |
 | [Homemade Fish Fingers with Sweet Potato Wedges](recipes/crispy-fish-fingers-wedges.md) | dinner | white fish | 50 min + defrost overnight | no |
-| [Jacket Potatoes with Cheesy Beans and Broccoli](recipes/jacket-potatoes-cheesy-beans.md) | lunch, dinner | legume, dairy | 65 min (mostly hands-off) | no |
+| [Baked Sweet Potato Falafel Wraps](recipes/sweet-potato-falafel-wraps.md) | dinner, lunch | legume | 50 min | yes |
 
 ¹ `cupboard-only`: needs nothing fresh or frozen, so it can always be cooked from household stock.
 
