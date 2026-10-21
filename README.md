@@ -44,8 +44,20 @@ The recipes are chosen to:
 | [Mild Bean and Sweetcorn Chilli](recipes/mild-bean-chilli.md) ¹ | dinner, lunch | legume | 35 min | yes |
 | [Homemade Fish Fingers with Sweet Potato Wedges](recipes/crispy-fish-fingers-wedges.md) | dinner | white fish | 50 min + defrost overnight | no |
 | [Baked Sweet Potato Falafel Wraps](recipes/sweet-potato-falafel-wraps.md) | dinner, lunch | legume | 50 min | yes |
+| [Instant Pot Chicken and Pea Pilaf](recipes/instant-pot-chicken-pea-pilaf.md) ² | dinner, lunch | chicken | 40 min | no |
+| [Instant Pot Mac and Cheese with Peas and Sweetcorn](recipes/instant-pot-mac-and-cheese.md) ² | lunch, dinner | dairy | 25 min | no |
+| [Instant Pot Carrot and Sweet Potato Soup](recipes/instant-pot-carrot-sweet-potato-soup.md) ² | lunch, dinner | legume | 40 min | yes |
+| [Instant Pot Mild Chicken and Chickpea Tagine](recipes/instant-pot-chicken-chickpea-tagine.md) ² | dinner | chicken, legume | 45 min | yes |
+| [Instant Pot Red Lentil Bolognese](recipes/instant-pot-lentil-bolognese.md) ² | dinner | legume | 40 min | yes |
+| [Slow Cooker Pulled Chicken Wraps](recipes/slow-cooker-pulled-chicken-wraps.md) ³ | dinner, lunch | chicken | 20 min + 4 h slow cook | yes |
+| [Slow Cooker Beef and Vegetable Stew](recipes/slow-cooker-beef-stew.md) ³ | dinner | beef | 30 min + 5 h slow cook | yes |
+| [Slow Cooker Minestrone Soup](recipes/slow-cooker-minestrone.md) ³ | lunch, dinner | legume | 45 min + 4 h slow cook | yes |
+| [Slow Cooker Hidden Veg Pasta Sauce](recipes/slow-cooker-hidden-veg-pasta-sauce.md) ³ | dinner, lunch | legume | 30 min + 4 h slow cook | yes |
+| [Slow Cooker Chicken and Sweetcorn Chowder](recipes/slow-cooker-chicken-sweetcorn-chowder.md) ³ | dinner, lunch | chicken | 30 min + 4 h slow cook | no |
 
 ¹ `cupboard-only`: needs nothing fresh or frozen, so it can always be cooked from household stock.
+² `pressure-cook`: cooked under pressure in the Instant Pot.
+³ `slow-cook`: cooked on the Instant Pot's Slow Cook setting; start it in the morning.
 
 ## Recipe format
 
@@ -107,10 +119,24 @@ marked `batch-friendly` scale up well for freezing.
 Tags used so far: `quick` (30 min or less in total), `no-cook`, `make-ahead`, `batch-friendly`,
 `freezer-friendly`, `one-pot`, `one-pan`, `hands-off`, `finger-food`, `lunchbox`,
 `uses-leftovers`, `oily-fish`, `budget`, `no-added-sugar`, `build-your-own`, `comfort-food`,
-`family-classic`, `freezer-staples`, `cupboard-only`.
+`family-classic`, `freezer-staples`, `cupboard-only`, `pressure-cook`, `slow-cook`.
 
 `cupboard-only` means every non-optional ingredient has catalog type `pantry` or `staple`: no
 fresh or frozen food. The validator enforces this.
+
+### Instant Pot recipes
+
+Recipes with `instant-pot` in `equipment` are written for a 6-quart (5.7 l) Instant Pot and use its
+button names (**Sauté**, **Pressure Cook**, **Slow Cook**). Each is tagged either `pressure-cook`
+or `slow-cook`.
+
+- `pressure-cook`: `cook_minutes` includes sautéing, the ~10 minutes the pot takes to come up to
+  pressure, the pressure time and the release. Nothing needs starting ahead.
+- `slow-cook`: the slow-cook time on **Slow Cook, More (high)** goes in `wait_minutes`; the steps
+  also give the longer time on **Normal**, for leaving it all day. `prep_minutes` and
+  `cook_minutes` are the hands-on work before and after.
+- A 3-quart pot takes half quantities with the same pressure times. An 8-quart pot needs at least
+  375 ml of thin liquid for pressure cooking; scale up the liquid if the recipe has less.
 
 ## Guidance for the planning agent
 
@@ -144,6 +170,10 @@ fresh or frozen food. The validator enforces this.
   has run out.
 - **Time.** Prefer `quick` recipes on weekdays. Recipes with `wait_minutes` need to be started
   ahead (overnight oats the evening before, defrosting fish for the fish fingers).
+- **Instant Pot.** There is one pot, so plan at most one Instant Pot recipe per meal. `slow-cook`
+  recipes suit busy days when someone is home in the morning (start them `wait_minutes` plus
+  `cook_minutes` before the meal on More, or earlier on Normal). `pressure-cook` recipes are good last-minute dinners. Cooking a
+  slow-cook recipe double and freezing half gives a ready meal for later in the month.
 
 ### Children and safety
 
