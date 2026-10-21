@@ -42,6 +42,7 @@ Columns:
 | butter | Unsalted butter | dairy & eggs | g | fresh | 250 g block | | 4 weeks, fridge |
 | chicken-thighs | Boneless skinless chicken thigh fillets | meat & fish | g | fresh | 500 g or 1 kg pack | | 2 days, fridge (or freeze) |
 | beef-mince | Lean beef mince (5-10% fat) | meat & fish | g | fresh | 500 g pack | | 2 days, fridge (or freeze) |
+| beef-braising | Diced braising beef (chuck or stewing steak) | meat & fish | g | fresh | 400-500 g pack | | 2 days, fridge (or freeze) |
 | salmon-fillets | Skinless boneless salmon fillets | meat & fish | piece | fresh | 4-pack | 120 g each | 2 days, fridge (or buy frozen) |
 | wholemeal-bread | Wholemeal sliced bread | bakery | slice | fresh | 800 g loaf (~20 slices) | | 5 days, or freeze |
 | wholemeal-tortillas | Wholemeal tortilla wraps (~25 cm) | bakery | piece | fresh | pack of 8 | | 2 weeks unopened |
